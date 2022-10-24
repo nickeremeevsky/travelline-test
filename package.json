@@ -1,0 +1,60 @@
+{
+  "name": "travelline-test",
+  "author": {
+    "name": "Nick Eremeevsky",
+    "email": "nick.eremeevsky@gmail.com",
+    "url": "https://nickeremeevsky.netlify.app"
+  },
+  "version": "1.0.0",
+  "description": "Test assignment for the position of Web-developer from TravelLine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickeremeevsky/travelline-test.git"
+  },
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build --build",
+    "zip": "gulp deployZIP --build",
+    "deploy": "gulp deployFTP --build",
+    "svgSprive": "gulp svgSprive"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "latest",
+    "del": "^6.1.1",
+    "github": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-fonter": "github:alexovn/gulp-fonter",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-pug": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-svg-sprite": "latest",
+    "gulp-ttf2woff2": "latest",
+    "gulp-util": "latest",
+    "gulp-version-number": "latest",
+    "gulp-webp": "latest",
+    "gulp-webp-html-nosvg": "latest",
+    "gulp-webpcss": "latest",
+    "gulp-zip": "latest",
+    "sass": "latest",
+    "swiper": "latest",
+    "vinyl-ftp": "latest",
+    "webp-converter": "2.2.3",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  }
+}
