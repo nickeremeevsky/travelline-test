@@ -4,7 +4,124 @@
   <body>
     @@include('html/header.html', {})
 
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <main class="page">
+        <div class="page__rooms rooms">
+          <div class="rooms__container">
+            <h1 class="rooms__title">Номера и цены</h1>
+            <div class="rooms__body">
+              <div class="rooms__card card-rooms">
+                <div class="card-rooms__content">
+                  <div class="card-rooms__background"></div>
+                  <img
+                    class="card-rooms__image"
+                    src="@img/room-1.jpg"
+                    alt="rooms"
+                  />
+                  <div class="card-rooms__title">
+                    <a href="#">Представительский люкс</a>
+                  </div>
+                  <div class="card-rooms__description">
+                    Эксклюзивный номер с панорамным видом на центр города Москвы
+                  </div>
+                  <div class="card-rooms__bottom">
+                    <div class="card-rooms__price price-element">
+                      <span class="price-element__text">Цена за сутки</span>
+                      <div class="price-element__value">
+                        <span class="price-element__text">от</span>
+                        <span class="price-element__cost">7 900</span>
+                        <span class="price-element__currency">₽</span>
+                      </div>
+                    </div>
+                    <button type="button" class="card-rooms__button">
+                      Забронировать
+                    </button>
+                    <div class="card-rooms__reserved">
+                      <p>Номер зарезервирован</p>
+                      <a class="card-rooms__link" href="#"
+                        >Перейти к
+                        <span class="card-rooms__text-color">оплате</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rooms__card card-rooms">
+                <div class="card-rooms__content">
+                  <div class="card-rooms__background"></div>
+                  <img
+                    class="card-rooms__image"
+                    src="@img/room-2.jpg"
+                    alt="rooms"
+                  />
+                  <div class="card-rooms__discount">Гарантия лучшей цены!</div>
+                  <div class="card-rooms__title"><a href="#">Дуплекс</a></div>
+                  <div class="card-rooms__description">
+                    Просторный двухкомнатный номер с шикарным видом на парк
+                  </div>
+                  <div class="card-rooms__bottom">
+                    <div class="card-rooms__price price-element">
+                      <span class="price-element__text">Цена за сутки</span>
+                      <div class="price-element__value">
+                        <span class="price-element__text">от</span>
+                        <span class="price-element__cost">5 700</span>
+                        <span class="price-element__currency">₽</span>
+                      </div>
+                    </div>
+                    <button type="button" class="card-rooms__button">
+                      Забронировать
+                    </button>
+                    <div class="card-rooms__reserved">
+                      <p>Номер зарезервирован</p>
+                      <a class="card-rooms__link" href="#"
+                        >Перейти к
+                        <span class="card-rooms__text-color">оплате</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rooms__card card-rooms">
+                <div class="card-rooms__content">
+                  <div class="card-rooms__background"></div>
+                  <img
+                    class="card-rooms__image"
+                    src="@img/room-3.jpg"
+                    alt="rooms"
+                  />
+                  <div class="card-rooms__title">
+                    <a href="#">Бизнес-люкс</a>
+                  </div>
+                  <div class="card-rooms__description">
+                    Трёхкомнатный номер с панорамным видом на Москва-реку
+                  </div>
+                  <div class="card-rooms__bottom">
+                    <div class="card-rooms__price price-element">
+                      <span class="price-element__text">Цена за сутки</span>
+                      <div class="price-element__value">
+                        <span class="price-element__text">от</span>
+                        <span class="price-element__cost">4 900</span>
+                        <span class="price-element__currency">₽</span>
+                      </div>
+                    </div>
+                    <button type="button" class="card-rooms__button">
+                      Забронировать
+                    </button>
+                    <div class="card-rooms__reserved">
+                      <p>Номер зарезервирован</p>
+                      <a class="card-rooms__link" href="#"
+                        >Перейти к
+                        <span class="card-rooms__text-color">оплате</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
     @@include('html/footer.html', {})
 
     <script src="js/app.min.js"></script>
