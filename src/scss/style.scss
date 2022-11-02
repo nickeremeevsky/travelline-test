@@ -3,6 +3,7 @@
 //<ШРИФТЫ>===========================================================================================================
 
 //<Подключаем шрифты>================================================================================================
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Roboto:wght@400;500;700&display=swap");
 //</Подключаем шрифты>===============================================================================================
 
 //</ШРИФТЫ>==========================================================================================================
@@ -40,7 +41,7 @@
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
-  background-image: url("@img/background.jpg");
+  background-image: url("@img/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -57,11 +58,12 @@
   }
 
   &__title {
-    text-align: center;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.25em;
+    font-size: 36px;
     line-height: 153%;
+    text-align: center;
     text-transform: uppercase;
     margin: 0 0 1em 0;
   }
@@ -138,9 +140,10 @@
   }
 
   &__title {
-    font-weight: 600;
-    font-size: 1.5em;
-    line-height: 130%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
     color: #ffffff;
     margin: 40px 0 0.375em 0;
     z-index: 2;
@@ -151,8 +154,8 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
-    line-height: 150%;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     margin: 0 0 1.25em 0;
     letter-spacing: 0.6px;
@@ -180,8 +183,8 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1em;
-    line-height: 150%;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     height: 48px;
     padding: 0px 25px;
@@ -203,12 +206,11 @@
     position: absolute;
     top: 24px;
     left: 24px;
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
-    font-weight: 600;
-    font-size: 0.875em;
-    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
     display: flex;
     align-items: center;
     color: #ffffff;
@@ -239,10 +241,9 @@
     justify-content: center;
     align-items: center;
     font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.875em;
-    line-height: 150%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
     text-align: center;
     color: #ffffff;
     background: #3c3e43;
@@ -283,30 +284,27 @@
 .price-element {
   &__text {
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 1em;
-    line-height: 150%;
+    font-size: 19px;
+    line-height: 24px;
     white-space: nowrap;
   }
 
   &__cost {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 700;
     color: #ff4b77;
-    font-size: 1.5em;
-    line-height: 133%;
+    font-size: 24px;
+    line-height: 32px;
   }
 
   &__currency {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-size: 1.437em;
+    font-size: 23px;
     font-weight: 400;
     color: #999999;
-    line-height: 133%;
+    line-height: 32px;
   }
 }
 
