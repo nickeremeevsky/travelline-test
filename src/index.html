@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-  @@include('html/head.html', { "title": "Номера и цены | TravelLine Hotel" })
+  @@include('html/head.html', { "title": "TravelLine Hotel | Номера и цены" })
   <body>
     @@include('html/header.html', {})
 
@@ -13,14 +13,17 @@
               <div class="rooms__card card-rooms">
                 <div class="card-rooms__content">
                   <div class="card-rooms__background"></div>
-                  <img
-                    class="card-rooms__image"
-                    src="@img/room-1.jpg"
-                    alt="rooms"
-                  />
-                  <div class="card-rooms__title">
+                  <picture class="card-rooms__picture">
+                    <img
+                      class="card-rooms__image"
+                      src="@img/pic-1.jpeg"
+                      alt="executive suite"
+                    />
+                  </picture>
+
+                  <h3 class="card-rooms__title">
                     <a href="#">Представительский люкс</a>
-                  </div>
+                  </h3>
                   <div class="card-rooms__description">
                     Эксклюзивный номер с панорамным видом на центр города Москвы
                   </div>
@@ -49,13 +52,15 @@
               <div class="rooms__card card-rooms">
                 <div class="card-rooms__content">
                   <div class="card-rooms__background"></div>
-                  <img
-                    class="card-rooms__image"
-                    src="@img/room-2.jpg"
-                    alt="rooms"
-                  />
+                  <picture class="card-rooms__picture">
+                    <img
+                      class="card-rooms__image"
+                      src="@img/pic-2.jpeg"
+                      alt="duplex"
+                    />
+                  </picture>
                   <div class="card-rooms__discount">Гарантия лучшей цены!</div>
-                  <div class="card-rooms__title"><a href="#">Дуплекс</a></div>
+                  <h3 class="card-rooms__title"><a href="#">Дуплекс</a></h3>
                   <div class="card-rooms__description">
                     Просторный двухкомнатный номер с шикарным видом на парк
                   </div>
@@ -84,14 +89,16 @@
               <div class="rooms__card card-rooms">
                 <div class="card-rooms__content">
                   <div class="card-rooms__background"></div>
-                  <img
-                    class="card-rooms__image"
-                    src="@img/room-3.jpg"
-                    alt="rooms"
-                  />
-                  <div class="card-rooms__title">
+                  <picture class="card-rooms__picture">
+                    <img
+                      class="card-rooms__image"
+                      src="@img/pic-3.jpeg"
+                      alt="business suite"
+                    />
+                  </picture>
+                  <h3 class="card-rooms__title">
                     <a href="#">Бизнес-люкс</a>
-                  </div>
+                  </h3>
                   <div class="card-rooms__description">
                     Трёхкомнатный номер с панорамным видом на Москва-реку
                   </div>
